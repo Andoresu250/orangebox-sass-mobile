@@ -19,10 +19,18 @@ nav ul
 
         a:hover 
             color:  $orange-color
-        
-
-    
 
     li:last-child
         border-right: none    
+
+
+@media only screen and (max-width: 500px) 
+    
+    nav 
+        ul
+            margin: 0    
+            position: absolute        
+            left: 50%
+            margin-right: -50%
+            transform: translate(-50%, 50%)
     
